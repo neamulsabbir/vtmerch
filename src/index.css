@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+@font-face {
+	font-family: "Act of Rejection";
+	src: url("/Font/Act_Of_Rejection.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+}
+
+.text-stroke {
+	-webkit-text-stroke: 1px #000000;
+	-webkit-text-fill-color: #fff;
+	font-weight: bold;
+	stroke-linejoin: round;
+	stroke-miterlimit: 1;
+	color: #fff;
+}

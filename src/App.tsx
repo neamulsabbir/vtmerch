@@ -1,19 +1,18 @@
-import { useEffect } from "react";
 import AOS from "aos";
+import { useEffect } from "react";
 import { Home } from "./components/Pages";
 
-
 function App() {
+	useEffect(() => {
+		AOS.init({ duration: 1000 });
+	}, []);
 
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
-  return (
-    <>
-     <Home />
-    </>
-  )
+	return (
+		<>
+			<Home />
+			<p>bgdjfsd dssdfsshj</p>
+		</>
+	);
 }
 
-export default App
+export default App;
