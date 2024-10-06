@@ -2,22 +2,22 @@ import Icon, { rightArrow } from "../../../libs/icons";
 
 export const SignedCollection = () => {
 	return (
-		<div>
+		<div className="overflow-x-hidden">
 			<div className="containerr bg-[#111] py-32 flex flex-wrap">
 				<div>
-					<div data-aos="fade-right">
+					<div data-aos="fade-right" className="overflow-x-hidden">
 						<p className="text-[#fff] text-center xl:text-left font-montserrat text-[28px] sm:text-[49px] not-italic font-medium leading-[59px] tracking-[0.5px] uppercase">
 							Patrick Bet-David's
 						</p>
 					</div>
 
-					<div data-aos="fade-right">
+					<div data-aos="fade-right"  className="overflow-x-hidden">
 						<p className="text-center xl:text-left  sm:mt-8 font-montserrat text-[40px] sm:text-[70px] not-italic font-bold leading-[59px] tracking-[0.5px] uppercase bg-clip-text text-transparent bg-gradient-to-b from-[#DE2A2F] to-[#EF5256]">
 							Signed
 						</p>
 					</div>
 
-					<div data-aos="fade-right">
+					<div data-aos="fade-right"  className="overflow-x-hidden">
 						<p
 							className="text-center xl:text-left  sm:mt-8 font-montserrat text-[40px] sm:text-[70px] not-italic font-bold leading-[59px] tracking-[0.5px] uppercase bg-clip-text text-transparent bg-gradient-to-b from-[#DE2A2F] to-[#EF5256]"
 						>

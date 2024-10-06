@@ -1,8 +1,8 @@
 export const Testimonial = () => {
 	return (
-		<section className="bg-gradient-to-r from-[#EC3339] to-[#BB1117] relative containerr">
+		<section className="bg-gradient-to-r from-[#EC3339] to-[#BB1117] relative containerr overflow-x-hidden">
 			<div className="flex justify-between items-center flex-wrap gap-6 md:gap-10 xl:gap-0">
-				<div data-aos="fade-right" className="flex-grow lg:max-w-screen-md xl:max-w-[860px] lg:pt-20 lg:pb-10 xl:py-40 px-6 md:px-0">
+				<div data-aos="fade-right" className="overflow-x-hidden flex-grow lg:max-w-screen-md xl:max-w-[860px] lg:pt-20 lg:pb-10 xl:py-40 px-6 md:px-0">
 					<div className="absolute top-[2%] md:top-[2%] md:left-[-6%] xl:top-[4%] ">
 						<img
 							src="/images/img/quotes.svg"
@@ -18,7 +18,7 @@ export const Testimonial = () => {
 					</p>
 				</div>
 
-				<div data-aos="fade-left" className="static mx-auto xl:absolute bottom-0 right-[5%] overflow-hidden sm:overflow-visible">
+				<div data-aos="fade-left" className="overflow-x-hidden static mx-auto xl:absolute bottom-0 right-[5%] overflow-hidden sm:overflow-visible">
 					<img
 						src="/images/img/men.png"
 						alt="Elevated Image"
