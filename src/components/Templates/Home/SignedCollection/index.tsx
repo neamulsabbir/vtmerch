@@ -40,13 +40,13 @@ export const SignedCollection = () => {
 				<div className="mx-auto  xl:w-1/2 xl:inline-flex gap-6 items-center overflow-hidden">
 					<img
 						data-aos="fade-up-right"
-						className="w-[330px] xl:w-[354px] 2xl:w-[400px] xl:h-[480px] 2xl:h-[580px]"
+						className="w-[180px] sm:w-[260px] md:w-[330px] xl:w-[354px] 2xl:w-[400px] xl:h-[480px] 2xl:h-[580px]"
 						src="/images/img/book_2.png"
 						alt="book1"
 					/>
 					<img
 						data-aos="fade-up-left"
-						className="w-[350px] xl:w-[304px] 2xl:w-[404px] xl:h-[418px] 2xl:h-[518px] ml-10 xl:ml-0"
+						className="w-[200px] sm:w-[280px] md:w-[350px] xl:w-[304px] 2xl:w-[404px] xl:h-[418px] 2xl:h-[518px] sm:ml-10 xl:ml-0"
 						src="/images/img/book_1.png"
 						alt="book2"
 					/>
