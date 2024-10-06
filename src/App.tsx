@@ -5,7 +5,7 @@ import { Home } from "./components/Pages";
 
 function App() {
 	useEffect(() => {
-		AOS.init({ duration: 1000 });
+		AOS.init({once:true, duration: 1000 });
 	}, []);
 
 	return (
