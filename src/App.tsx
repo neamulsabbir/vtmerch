@@ -1,4 +1,5 @@
 import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Home } from "./components/Pages";
 
@@ -10,7 +11,6 @@ function App() {
 	return (
 		<>
 			<Home />
-			<p>bgdjfsd dssdfsshj</p>
 		</>
 	);
 }

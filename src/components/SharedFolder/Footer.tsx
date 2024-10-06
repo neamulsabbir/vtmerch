@@ -3,18 +3,9 @@ import { Brand } from "./Brand";
 
 export const Footer = () => {
 	return (
-		<div className="bg-[#000]">
-			<div className=" px-[50px] lg:px-[100px] 2xl:px-[150px] py-[48px]">
-				{/* <div className="flex items-end justify-center lg:justify-start w-full">
-					<div className="">
-						<img className="xs:w-20 xs:h-20 sm:w-28 sm:h-28" src="images/Vtmerch.png" alt="vtmerch" />
-					</div>
-					<div className="">
-						<p className="font-montserrat xs:text-[48px] sm:text-[72px] md:text-[100px] xs:leading-[80px] sm:leading-[112px] not-italic tracking-[5px] font-extrabold text-[#FFF] ">
-							VTMERCH
-						</p>
-					</div>
-				</div> */}
+		<div className="bg-[#000] py-[48px] containerr">
+			
+				
 				<Brand />
 
 				<div className="flex flex-wrap justify-between mt-9 border-t border-custom-gray ">
@@ -124,37 +115,16 @@ export const Footer = () => {
 						</div>
 					</div>
 				</div>
+
 				<div className="pt-[120px] w-full">
 					<div className="flex flex-col items-center lg:flex-row lg:items-end lg:justify-between">
 						<p className="text-white/80 text-[16px] font-normal leading-[24px] tracking-[0.08px] text-center">
 							© 2024 Valuetainment Store. All rights reserved.
 						</p>
-						{/* <div className="flex gap-2">
-							<li className="cursor-pointer">
-								<VisaIcon />
-							</li>
-							<li className="cursor-pointer">
-								<ApplePayIcon />
-							</li>
-							<li className="cursor-pointer">
-								<DinersClubIcon />
-							</li>
-							<li className="cursor-pointer">
-								<VisaIcon />
-							</li>
-							<li className="cursor-pointer">
-								<AmexIcon />
-							</li>
-							<li className="cursor-pointer">
-								<PaypalIcon />
-							</li>
-							<li className="cursor-pointer">
-								<AmexSecondIcon />
-							</li>
-						</div> */}
+						
 					</div>
 				</div>
-			</div>
+			
 		</div>
 	);
 };
